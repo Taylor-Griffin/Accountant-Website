@@ -601,13 +601,13 @@ h1, h2, h3 {
 /* #region Background images */
 
 .hero__container {
-  background: linear-gradient(#0000008c, #0000008c), url(../images/hero.png);
+  background: linear-gradient(#0000008c, #0000008c), url(./images/hero.png);
   background-position: center;
   background-size: cover;
 }
 
 .about_us-image {
-  background: url(../images/about_us.png);
+  background: url(./images/about_us.png);
   background-position: center;
   background-size: cover;
 }
@@ -32493,7 +32493,7 @@ form .input-animated input:not(:-ms-input-placeholder) + label span {
   transform: translateY(-200%);
 }
 
-form .input-animated input:focus + label span, 
+form .input-animated input:focus + label span,
   form .input-animated input:valid + label span,
   form .input-animated input:not(:placeholder-shown) + label span {
   transform: translateY(-200%);
